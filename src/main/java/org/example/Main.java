@@ -11,10 +11,13 @@ public class Main {
                 "temporário dos sintomas decorrentes de gripes, resfriados comuns e sinusites.";
         synus.preco = 16.45;
 
+        synus.verificaMaiorDeIdade(15);
         synus.precisaDeReceita();
         synus.mostrarProdutos();
+        synus.somarTotal();
 
         Produtos amoxilina = new Produtos();
+
         amoxilina.nome = "Amoxilina";
         amoxilina.tarja = true;
         amoxilina.descricao =
@@ -22,7 +25,5 @@ public class Main {
                         "nos pulmões (pneumonia e bronquite), nas amígdalas (amigdalite), nos seios da face (sinusite), " +
                         "no trato urinário e genital, na pele e nas mucosas.";
 
-
     }
-
 }
